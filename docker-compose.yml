@@ -15,7 +15,7 @@ services:
       args:
         - cachet_ver=2.4
     ports:
-      - 80:8000
+      - 80:8367
     links:
       - postgres:postgres
     environment:
